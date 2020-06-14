@@ -37,7 +37,7 @@ function ConcreteTinter.Tint(concrete_type, color)
     if (tinted_tile == nil) then return end
 
     -- Change tiles to be minable
-    tinted_tile.minable.result = name
+    --tinted_tile.minable.result = name
 
     -- Setting up item
     local tinted_item = ConcreteTinter.MakeItem(
